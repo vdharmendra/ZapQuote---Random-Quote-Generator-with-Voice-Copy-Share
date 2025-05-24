@@ -1,0 +1,113 @@
+/* GOOGLE FONT LINK */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* RESET DEFAULT CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* BODY STYLE */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #DDFEF8;
+}
+
+.wrapper{
+    width: 605px;
+    background: #23194F;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 35px;
+    color: #DDFEF8;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quoteArea{
+    color: #DDFEF8;
+    display: flex;
+    justify-content: center;
+}
+.quoteArea i{
+    font-size: 15px;
+}
+.quoteArea i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quoteArea i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.quoteArea .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 18px;
+    color: #DDFEF8;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    color: #DDFEF8;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #DDFEF8;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.features ul li:hover{
+    color: #23194F;
+    background: #DDFEF8;
+}
+.features button{
+    border: none;
+    outline: none;
+    color: #23194F;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: #DDFEF8;
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
